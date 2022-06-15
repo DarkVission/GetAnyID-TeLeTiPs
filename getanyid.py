@@ -12,10 +12,10 @@ bot=Client(
 
 START_MESSAGE = "Im Night Vission Group Help Bot"
 START_MESSAGE_BUTTONS = InlineKeyboardMarkup([[              
-                 InlineKeyboardButton('🍁 Owner 🍁', url="https://t.me/NavanjanaIsMe")
+                 InlineKeyboardButton(' Owner ', url="https://t.me/NavanjanaIsMe")
                  ],
                  [
-                 InlineKeyboardButton(text="🌴 ʜᴇʟᴘ 🌴",callback_data="hlp")
+                 InlineKeyboardButton(text="helph",callback_data="hlp")
                  ],
                  [
                  InlineKeyboardButton("bfkrkr", url="https://github.com/TeamAlphaTg/Pm-Chat-bot") 
@@ -30,6 +30,7 @@ def start(bot, message):
 	text=text,
 	reply_markup=reply_markup
 	disable_web_page_preview=True
+)
 
 print("Night Vission Bot Online Danger")
 bot.run()
