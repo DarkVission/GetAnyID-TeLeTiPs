@@ -11,14 +11,16 @@ bot=Client(
 )
 
 START_MESSAGE = "Im Night Vission Group Help Bot"
-START_MESSAGE_BUTTONS = ([[InlineKeyboardButton(text="Help", callback_data="help_menu")
-],
-[
-
-InlineKeyboardButton(text="Night Vission", url="https://t.me/NightVission")
-],
-[
-InlineKeyboardButton(text="Creator", url="https://t.me/NA_VA_N_JA_NA1")]]))
+START_MESSAGE_BUTTONS = InlineKeyboardMarkup([[              
+                 InlineKeyboardButton('🍁 Owner 🍁', user_id=f"{OWNER_ID}")
+                 ],
+                 [
+                 InlineKeyboardButton(text="🌴 ʜᴇʟᴘ 🌴",callback_data="hlp")
+                 ],
+                 [
+                 InlineKeyboardButton("🍄 sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ 🍄", url="https://github.com/TeamAlphaTg/Pm-Chat-bot") 
+                 ]]
+                  )
 
 @bot.on_message(filters.command('start') & filters.private)
 def start(bot, message):
