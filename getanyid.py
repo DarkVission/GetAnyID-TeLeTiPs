@@ -11,9 +11,14 @@ bot=Client(
 )
 
 START_MESSAGE = "Im Night Vission Group Help Bot"
-START_MESSAGE_BUTTONS = [
-[InlinekeyboardButton('SUPPORT', url='https://t.me/NightVisssion')
-]
+START_MESSAGE_BUTTONS = ([[InlineKeyboardButton(text="Help", callback_data="help_menu")
+],
+[
+
+InlineKeyboardButton(text="Night Vission", url="https://t.me/NightVission")
+],
+[
+    InlineKeyboardButton(text="Creator", url="https://t.me/NA_VA_N_JA_NA1")]]))
 
 @bot.on_message(filters.command('start') & filters.private)
 def start(bot, message):
