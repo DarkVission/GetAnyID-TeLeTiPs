@@ -11,9 +11,9 @@ bot = Client(
 )
 
 START_MESSAGE = "Im Night Vission Group Help Bot"
-START_MESSAGE_BUTTONS = [
+START_MESSAGE_BUTTONS = ([
 [InlinekeyboardButton('SUPPORT', url='https://t.me/NightVisssion')
-]
+])
 @bot.on_message(filters.command('start') & filters.private)
 def start(bot, message):
 	text = START_MESSAGE
