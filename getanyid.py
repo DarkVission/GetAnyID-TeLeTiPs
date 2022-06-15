@@ -3,7 +3,7 @@ from pyrogram.types import Chatpermission
 from pyrogram.types import InlinekeyboardButton, InlinekeyboardMarkup
 import os
 
-bot=Client(
+bot = Client(
     "Night Vission Bot",
     api_id = int(os.environ["API_ID"]),
     api_hash = os.environ["API_HASH"],
