@@ -12,13 +12,13 @@ bot=Client(
 
 START_MESSAGE = "Im Night Vission Group Help Bot"
 START_MESSAGE_BUTTONS = InlineKeyboardMarkup([[              
-                 InlineKeyboardButton('🍁 Owner 🍁', user_id=f"{OWNER_ID}")
+                 InlineKeyboardButton('🍁 Owner 🍁', url="https://t.me/NavanjanaIsMe")
                  ],
                  [
                  InlineKeyboardButton(text="🌴 ʜᴇʟᴘ 🌴",callback_data="hlp")
                  ],
                  [
-                 InlineKeyboardButton("🍄 sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ 🍄", url="https://github.com/TeamAlphaTg/Pm-Chat-bot") 
+                 InlineKeyboardButton("bfkrkr", url="https://github.com/TeamAlphaTg/Pm-Chat-bot") 
                  ]]
                   )
 
