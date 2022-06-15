@@ -1,7 +1,7 @@
 {
-    "name": "GetAnyID",
+    "name": "NVb",
     "description": "Fast and simple Telegram bot to provide user/group/channel ID. This bot can also work in group chats.",
-    "repository": "https://github.com/teletips/GetAnyID-TeLeTiPs",
+    "repository": "https://github.com/Captainamarica/GetAnyID-TeLeTiPs",
     "logo": "https://telegra.ph/file/a2cb115521075d0e44aae.jpg",
     "keywords": [
         "chat id",
